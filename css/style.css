@@ -1,0 +1,615 @@
+div {
+    display: flex;
+}
+
+
+body {
+    width: 100%;
+    background: #E5E5E5;
+}
+.mid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* fonts */
+
+h1 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 0.03em;
+    color: #272727;
+}
+h2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+
+}
+input::-webkit-input-placeholder {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.name-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.info-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #C2C2C2;
+}
+.price-text {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #EFC58B;
+}
+p {
+    z-index: 10;
+}
+
+/* Header */
+
+
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.control {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-shop > * + * {
+    margin-left: 40px;
+}
+.byrger {
+}
+
+
+/* main */
+
+.title {
+    flex-direction: column;
+    margin-top: 280px;
+}
+.watch-coll {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HIGH-JEWELRY {
+    flex-direction: column;
+}
+.Watch-collection {
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 66px;
+}
+.coll {
+    width: 130px;
+    height: 1px;
+    background: #272727;
+    margin: 0 38px 0 130px;
+}
+.ring {
+    margin-right: 230px;
+}
+
+.lang-price {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 367px;
+}
+.lang {
+    align-items: flex-end;
+}
+.info-price {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info-price > * + * {
+    margin-top: 9px;
+}
+.background-dark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #272727;
+    width: 40%;
+    height: 1002px;
+    z-index: -10;
+}
+
+.for-men-wommen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.for-men {
+    background-image: url(../image/men.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.for {
+    width: 130px;
+    height: 1px;
+    background: #FFFFFF;
+    z-index: 10;
+}
+.for-h1, .for-a {
+    color: #FFFFFF;
+    margin-bottom: 23px;
+    z-index: 10;
+}
+.overlay {
+    position: absolute;
+    width: 49%;
+    height: 100%;
+    background: rgba(39, 39, 39, 0.4);
+}
+.for-women {
+    background-image: url(../image/women.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+.container {
+    width: 50%;
+    height: 604px;
+    background: #272727;
+    justify-content: center;
+    align-items: center;
+}
+.search-shop {
+    flex-direction: column;
+    justify-content: center;
+}
+.map-img {
+    background-image: url(../image/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 730px;
+    height: 604px;
+    position: relative;
+}
+.search-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.email-btn, .email-input {
+    border: none;
+    background: transparent;
+}
+.email-input {
+    color: white;
+    width: 100%;
+}
+.marker {
+    position: absolute;
+    cursor: pointer;
+}
+.marker:hover {
+    background-image: url(../image/markerF.png);
+}
+
+
+.one {
+    top: 143px;
+    left: 93px;
+}
+.two {
+    top: 167px;
+    left: 269px;
+}
+.three {
+    top: 228px;
+    left: 382px;
+}
+.four {
+    top: 410px;
+    left: 276px;
+}
+
+.git {
+    position: absolute;
+    top: 167px;
+    left: 269px;
+}
+
+
+.showcase {
+    flex-direction: row;
+}
+.showcase-side {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.lot {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background: #EDEDED;
+}
+.top {
+    margin-bottom: 20px;
+}
+.lot-image {
+    margin: 0 auto;
+}
+.lot-text {
+    flex-direction: column;
+}
+.lot-text > * + * {
+    margin-top: 9px;
+}
+.name-text-smal {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #272727;
+}
+.info-text-smal {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #757575;
+}
+.price-text-smal {
+    font-family: 'Segoe UI';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #E2B67A;
+}
+.showcase-center {
+    background-image: url(../image/r5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    padding: 20px;
+    align-items: flex-end;
+}
+.white {
+    color: white;
+}
+.Whisper {
+color: #E7E7E7;
+}
+.Tacao {
+    color: #EFC58B;
+}
+
+
+.dark {
+    background: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 20px;
+}
+.dark > * + * {
+    margin-top: 80px;
+}
+.we-social {
+    flex-direction: column;
+    width: 80%;
+}
+.container-slider {
+}
+.container-slider {
+}
+.slider {
+}
+.slider-line {
+    position: relative;
+    overflow: hidden;
+}
+.slider-img {
+    width: 100%;
+    height: 385px;
+}
+.slider-line > * + * {
+    margin-left: 25px;
+}
+.contacts-scroll {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.contacts > * + * {
+    margin-left: 20px;
+}
+.facebook {
+    text-align: center;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #DADADA;
+}
+.scroll {
+    width: 340px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-next, .slider-back {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.dot {
+}
+.slider-back {
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+}
+.woomen-blue {
+    width: 50%;
+}
+.phone-subscribe {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+    background: #E5E5E5;
+}
+.center {
+    margin-left: 150px;
+}
+.phone, .email-subscribe {
+    flex-direction: column;
+    justify-content: center;
+}
+.phone > * + * {
+    margin-top: 30px;
+}
+.phone-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #959595;
+}
+.subscribe-news {
+    display: flex;
+    margin-top: 30px;
+}
+.subscribe-input::-webkit-input-placeholder {
+    color: #272727;
+}
+.subscribe-input {
+    width: 86%;
+}
+
+/* footer */
+footer {
+    background: #272727;
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 90px 0;
+}
+.info-website, .info-website-ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-website-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo-phone-email {
+    width: 100%;
+    margin-top: 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-white {
+    background-image: url(../image/logo-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 30px;
+}
+.phone-email-footer > * + * {
+    margin-left: 80px;
+}
+.phone-hot-line {
+    flex-direction: column;
+}
+.phone-hot-line > * + * {
+    margin-top: 15px;
+}
+.app {
+    flex-direction: row;
+    width: 65%;
+    margin-top: 16px;
+}
+.apple,.android {
+    width: 90px;
+    height: 30px;
+    margin-right: 15px;
+}
+@media (max-width: 768px) {
+    .mid {
+        width: 90%; /* Уменьшаем ширину контейнера */
+    }
+
+    /* Дополнительные стили для header */
+    .header {
+        margin-top: 30px; /* Уменьшаем отступ сверху */
+    }
+
+    /* Дополнительные стили для .title */
+    .title {
+        margin-top: 150px; /* Уменьшаем отступ сверху */
+    }
+
+    /* Дополнительные стили для .watch-coll */
+    .watch-coll {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    /* Дополнительные стили для .lang-price */
+    .lang-price {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        align-items: center; /* Выравниваем элементы по центру */
+        margin-top: 50px; /* Уменьшаем отступ сверху */
+    }
+
+    /* Дополнительные стили для .lang и .info-price */
+    .lang, .info-price {
+        text-align: center; /* Выравниваем текст по центру */
+        margin-top: 20px; /* Уменьшаем отступ сверху */
+    }
+
+    /* Дополнительные стили для .map */
+    .map {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    /* Дополнительные стили для .container */
+    .container {
+        width: 90%; /* Уменьшаем ширину контейнера */
+    }
+
+    /* Дополнительные стили для .showcase */
+    .showcase {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+    }
+
+    /* Дополнительные стили для .showcase-side */
+    .showcase-side {
+        width: 100%; /* Устанавливаем ширину 100% */
+        margin-bottom: 50px; /* Уменьшаем отступ снизу */
+    }
+
+    /* Дополнительные стили для .showcase-center */
+    .showcase-center {
+        width: 100%; /* Устанавливаем ширину 100% */
+        margin-bottom: 50px; /* Уменьшаем отступ снизу */
+    }
+
+    /* Дополнительные стили для .dark */
+    .dark {
+        padding: 50px 0; /* Уменьшаем внутренние отступы */
+    }
+
+    /* Дополнительные стили для .footer */
+    .footer {
+        padding: 50px 0; /* Уменьшаем внутренние отступы */
+    }
+
+    /* Дополнительные стили для .logo-phone-email */
+    .logo-phone-email {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    /* Дополнительные стили для .phone-email-footer */
+    .phone-email-footer {
+        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    /* Дополнительные стили для .app */
+    .app {
+        width: 100%; /* Устанавливаем ширину 100% */
+        margin-top: 30px; /* Уменьшаем отступ сверху */
+        justify-content: center; /* Выравниваем элементы по центру */
+    }
+}
