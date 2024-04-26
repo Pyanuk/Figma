@@ -12,8 +12,6 @@ body {
     margin: 0 auto;
 }
 
-/* fonts */
-
 h1 {
     font-family: 'Forum';
     font-style: normal;
@@ -70,7 +68,6 @@ p {
     z-index: 10;
 }
 
-/* Header */
 
 
 .header {
@@ -90,7 +87,6 @@ p {
 }
 
 
-/* main */
 
 .title {
     flex-direction: column;
@@ -461,7 +457,7 @@ color: #E7E7E7;
     width: 86%;
 }
 
-/* footer */
+
 footer {
     background: #272727;
 }
@@ -524,92 +520,86 @@ footer {
 }
 @media (max-width: 768px) {
     .mid {
-        width: 90%; /* Уменьшаем ширину контейнера */
+        width: 90%; 
     }
 
-    /* Дополнительные стили для header */
+
     .header {
-        margin-top: 30px; /* Уменьшаем отступ сверху */
+        margin-top: 30px; 
     }
 
-    /* Дополнительные стили для .title */
+
     .title {
-        margin-top: 150px; /* Уменьшаем отступ сверху */
+        margin-top: 150px; 
     }
 
-    /* Дополнительные стили для .watch-coll */
     .watch-coll {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
-        align-items: center; /* Выравниваем элементы по центру */
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* Дополнительные стили для .lang-price */
+
     .lang-price {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
-        align-items: center; /* Выравниваем элементы по центру */
-        margin-top: 50px; /* Уменьшаем отступ сверху */
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 50px; 
     }
 
-    /* Дополнительные стили для .lang и .info-price */
+
     .lang, .info-price {
-        text-align: center; /* Выравниваем текст по центру */
-        margin-top: 20px; /* Уменьшаем отступ сверху */
+        text-align: center; 
+        margin-top: 20px; 
     }
 
-    /* Дополнительные стили для .map */
+
     .map {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
-        align-items: center; /* Выравниваем элементы по центру */
+        flex-direction: column; 
+        align-items: center; 
     }
 
-    /* Дополнительные стили для .container */
+
     .container {
-        width: 90%; /* Уменьшаем ширину контейнера */
+        width: 90%; 
     }
 
-    /* Дополнительные стили для .showcase */
     .showcase {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
+        flex-direction: column; 
     }
 
-    /* Дополнительные стили для .showcase-side */
     .showcase-side {
-        width: 100%; /* Устанавливаем ширину 100% */
-        margin-bottom: 50px; /* Уменьшаем отступ снизу */
+        width: 100%; 
+        margin-bottom: 50px; 
     }
 
-    /* Дополнительные стили для .showcase-center */
     .showcase-center {
-        width: 100%; /* Устанавливаем ширину 100% */
-        margin-bottom: 50px; /* Уменьшаем отступ снизу */
+        width: 100%; 
+        margin-bottom: 50px; 
     }
 
-    /* Дополнительные стили для .dark */
+
     .dark {
-        padding: 50px 0; /* Уменьшаем внутренние отступы */
+        padding: 50px 0; 
     }
 
-    /* Дополнительные стили для .footer */
+
     .footer {
-        padding: 50px 0; /* Уменьшаем внутренние отступы */
+        padding: 50px 0; 
     }
 
-    /* Дополнительные стили для .logo-phone-email */
+
     .logo-phone-email {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
-        align-items: center; /* Выравниваем элементы по центру */
+        flex-direction: column; 
+        align-items: center; 
     }
 
-    /* Дополнительные стили для .phone-email-footer */
     .phone-email-footer {
-        flex-direction: column; /* Переключаем расположение элементов в колонку */
-        align-items: center; /* Выравниваем элементы по центру */
+        flex-direction: column; 
+        align-items: center; 
     }
 
-    /* Дополнительные стили для .app */
     .app {
-        width: 100%; /* Устанавливаем ширину 100% */
-        margin-top: 30px; /* Уменьшаем отступ сверху */
-        justify-content: center; /* Выравниваем элементы по центру */
+        width: 100%; 
+        margin-top: 30px; 
+        justify-content: center; 
     }
 }
